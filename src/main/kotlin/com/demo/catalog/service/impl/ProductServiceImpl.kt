@@ -1,4 +1,4 @@
-package com.demo.catalog.repository.impl
+package com.demo.catalog.service.impl
 
 import com.demo.catalog.core.paging.Filter
 import com.demo.catalog.core.paging.Page
