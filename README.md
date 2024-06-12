@@ -50,3 +50,8 @@
    ```shell
     microk8s kubectl apply -f catalog/
    ```
+5. At last, we can setup a port-forward for us to be able to access our application through localhost:
+   ```shell
+   microk8s kubectl port-forward -n default service/catalog-api 8082:80
+   ```
+6. Now open your browser at http://localhost:8082/products
